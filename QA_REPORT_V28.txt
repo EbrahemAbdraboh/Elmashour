@@ -1,0 +1,40 @@
+EL MASHOUR — V28 PRODUCTION QA REPORT
+=====================================
+
+Scope
+-----
+Refined the existing Success Partners section only, based on V27 implementation and the supplied Logo Identity Guidelines v1.0 — 2026.
+
+Implemented
+-----------
+- Preserved the existing infinite marquee architecture.
+- Replaced Client Logo placeholders with the 6 supplied partner logo files.
+- Preserved the supplied logo bytes unchanged.
+- Added refined industrial metallic card frame using the brand chrome gradient direction.
+- Added subtle card lift and orange micro-accent on hover.
+- Preserved marquee pause-on-hover behavior.
+- Set marquee motion to 36s desktop / 32s tablet / 29s mobile.
+- Preserved RTL/LTR marquee behavior.
+- Preserved reduced-motion accessibility behavior.
+- Added lazy loading and async image decoding for partner logos.
+- Refined Arabic and English partner-section copy.
+- No other site sections were intentionally redesigned.
+
+QA Checks
+---------
+PASS — Partner CSS markers present
+PASS — Infinite marquee duplication present
+PASS — Hover interaction present
+PASS — Reduced-motion rule present
+PASS — Arabic/English partner copy present
+PASS — Client Logo placeholder removed
+PASS — Six partner assets present
+PASS — Supplied logo bytes preserved (SHA-256 comparison)
+PASS — Inline JavaScript syntax check (Node.js)
+PASS — HTTP/static asset smoke test
+PASS — Final ZIP integrity test (unzip -t)
+
+Deployment
+----------
+Upload the contents of this ZIP to the server document root.
+The ZIP contains index.html, .htaccess, robots.txt, and assets/partners/.
