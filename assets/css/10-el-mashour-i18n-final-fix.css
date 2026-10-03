@@ -1,6 +1,0 @@
-
-html[dir="rtl"] .site-footer { direction: rtl; }
-html[dir="ltr"] .site-footer { direction: ltr; }
-.site-footer .footer-bottom { width:100%; text-align:center; }
-.site-footer .footer-contact-row { display:flex; align-items:center; gap:10px; }
-.site-footer .footer-contact-row > span { unicode-bidi:isolate; }
