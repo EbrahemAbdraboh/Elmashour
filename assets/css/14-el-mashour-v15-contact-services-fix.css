@@ -1,0 +1,15 @@
+
+/* V15 — Arabic footer services + full-width contact channels + social cards */
+.contact-section .contact-channels{width:100%!important;min-width:0!important}
+.contact-section .channel-list{width:100%!important;display:flex!important;flex-direction:column!important;gap:14px!important}
+.contact-section .channel-card{width:100%!important;max-width:none!important;min-width:0!important;box-sizing:border-box!important}
+.contact-section .contact-social-cards{display:flex!important;flex-direction:column!important;gap:14px!important;width:100%!important;margin:0 0 20px!important}
+.contact-section .contact-social-card{width:100%!important;display:flex!important;align-items:center!important;gap:14px!important;padding:16px 18px!important;background:#fff!important;border:1px solid rgba(7,48,91,.06)!important;border-radius:var(--radius-md)!important;color:var(--navy-900)!important;transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease!important}
+.contact-section .contact-social-card:hover{transform:translateY(-2px)!important;box-shadow:var(--shadow-soft)!important;border-color:rgba(245,129,18,.28)!important}
+.contact-section .contact-social-card .contact-social-icon{width:44px!important;height:44px!important;flex:0 0 44px!important;border-radius:50%!important;display:flex!important;align-items:center!important;justify-content:center!important;background:linear-gradient(145deg,#fff,var(--silver-100))!important;color:var(--orange-500)!important;border:1px solid rgba(7,48,91,.08)!important}
+.contact-section .contact-social-card .contact-social-label{display:block!important;font-size:12px!important;color:var(--muted)!important;font-family:var(--font-mono)!important;letter-spacing:.5px!important}
+.contact-section .contact-social-card .contact-social-value{display:block!important;font-weight:700!important;color:var(--navy-900)!important;font-size:14.5px!important;margin-top:2px!important}
+html[dir="rtl"] .contact-section .contact-social-card,
+html[dir="rtl"] .contact-section .channel-card{direction:rtl!important;text-align:right!important}
+html[dir="rtl"] .contact-section .channel-value{direction:ltr!important;unicode-bidi:isolate!important;text-align:right!important}
+html[dir="rtl"] .contact-section .contact-social-value{direction:rtl!important}

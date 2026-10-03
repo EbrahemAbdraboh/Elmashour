@@ -1,0 +1,7 @@
+
+/* V9 reliability: Client Stories on Home + guaranteed footer map */
+.client-stories{order:998}
+.site-footer{position:relative;z-index:2}
+.site-footer .footer-map-wrap{display:block!important;align-self:stretch!important}
+.site-footer .footer-map-frame{display:block!important;width:100%!important;min-height:205px!important;background:#eef2f5!important}
+@media(max-width:1120px){.site-footer .footer-map-wrap{grid-column:1 / -1!important}}

@@ -1,0 +1,48 @@
+
+/* V8 — unified social language + guaranteed internal client stories */
+.social-row{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.social-btn,.social-btn-navy{
+  width:30px!important;height:30px!important;min-width:30px!important;
+  border-radius:50%!important;
+  display:inline-flex!important;align-items:center!important;justify-content:center!important;
+  padding:0!important;
+  border:1px solid rgba(255,255,255,.22)!important;
+  background:rgba(255,255,255,.055)!important;
+  color:#fff!important;
+  box-shadow:none!important;
+  transition:transform .2s ease,background .2s ease,border-color .2s ease,color .2s ease!important;
+}
+.social-btn:hover,.social-btn:focus-visible,.social-btn-navy:hover,.social-btn-navy:focus-visible{
+  background:var(--em-orange,#F58112)!important;
+  border-color:var(--em-orange,#F58112)!important;
+  color:#fff!important;
+  transform:translateY(-2px)!important;
+  box-shadow:0 7px 16px -9px rgba(245,129,18,.8)!important;
+}
+.social-icon-wrap{width:16px!important;height:16px!important}
+.social-icon-outline,.social-icon-solid{transition:opacity .18s ease,transform .18s ease!important}
+.social-icon-solid{transform:scale(.7)!important}
+.social-btn:hover .social-icon-outline,.social-btn:focus-visible .social-icon-outline,.social-btn-navy:hover .social-icon-outline,.social-btn-navy:focus-visible .social-icon-outline{opacity:0!important;transform:scale(.7)!important}
+.social-btn:hover .social-icon-solid,.social-btn:focus-visible .social-icon-solid,.social-btn-navy:hover .social-icon-solid,.social-btn-navy:focus-visible .social-icon-solid{opacity:1!important;transform:scale(1)!important}
+
+/* Client stories — internal pages only */
+.client-stories{background:#fff!important;padding:74px 0 70px!important;position:relative!important;overflow:hidden!important;border-top:1px solid rgba(7,48,91,.07)!important;border-bottom:1px solid rgba(7,48,91,.07)!important}
+.client-stories:after{content:"";position:absolute;left:-160px;bottom:-210px;width:420px;height:420px;border-radius:50%;background:radial-gradient(circle,rgba(7,48,91,.055),transparent 68%);pointer-events:none}
+.client-stories-head{max-width:760px!important;margin:0 auto 34px!important;text-align:center!important}
+.client-stories-eyebrow{color:#F58112!important;font-weight:800!important;letter-spacing:2.4px!important}
+.client-stories-title{color:#07305B!important;font-weight:900!important}
+.client-stories-slider{max-width:980px!important;min-height:280px!important;margin:0 auto!important;position:relative!important}
+.client-story{padding:36px 44px 32px!important;border-radius:22px!important;border:1px solid rgba(7,48,91,.10)!important;box-shadow:0 22px 55px -38px rgba(7,48,91,.42)!important}
+.client-story-quote{font-size:48px!important;color:#F58112!important;margin-bottom:12px!important}
+.client-story-text{font-size:17px!important;line-height:1.95!important;font-weight:600!important;color:#07305B!important}
+.client-story-meta{color:#657589!important}
+.client-story-meta:before{background:#F58112!important}
+.client-story-dot.active{background:#F58112!important}
+.client-story-dot{background:#cbd3dc!important}
+@media(max-width:700px){
+ .social-btn,.social-btn-navy{width:29px!important;height:29px!important;min-width:29px!important}
+ .client-stories{padding:58px 0 56px!important}
+ .client-stories-slider{min-height:330px!important}
+ .client-story{padding:30px 24px 28px!important;border-radius:18px!important}
+ .client-story-text{font-size:15px!important}
+}

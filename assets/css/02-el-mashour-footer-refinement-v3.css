@@ -1,0 +1,26 @@
+
+/* ===== El Mashour Footer Premium Refinement v3 ===== */
+.site-footer{background:#061b30!important}
+.site-footer:after{background:
+  radial-gradient(ellipse 70% 90% at 78% 20%,rgba(245,129,18,.30),transparent 58%),
+  linear-gradient(115deg,rgba(4,31,59,.94) 0%,rgba(7,48,91,.84) 52%,rgba(200,90,8,.52) 100%)!important;
+}
+.site-footer:before{background-position:center 55%;filter:saturate(.9) contrast(1.03)}
+.site-footer .footer-grid{position:relative}
+.site-footer .footer-grid:after{content:"";position:absolute;left:0;right:0;bottom:-1px;height:1px;background:linear-gradient(90deg,transparent,rgba(245,129,18,.48),transparent)}
+.site-footer .footer-col h4{position:relative;display:inline-block;padding-bottom:8px}
+.site-footer .footer-col h4:after{content:"";position:absolute;left:0;bottom:0;width:28px;height:2px;border-radius:999px;background:var(--em-orange)}
+.site-footer .social-row{gap:12px;margin-top:20px!important}
+.site-footer .social-btn{position:relative;width:44px;height:44px;border-radius:14px;overflow:visible;background:rgba(255,255,255,.075)!important;border:1px solid rgba(255,255,255,.20)!important;color:#fff!important;box-shadow:0 10px 24px -15px rgba(0,0,0,.9),inset 0 1px 0 rgba(255,255,255,.08);transition:transform .28s cubic-bezier(.2,.8,.2,1),background .28s ease,border-color .28s ease,box-shadow .28s ease}
+.site-footer .social-btn:before{content:"";position:absolute;inset:-4px;border-radius:17px;border:1px solid rgba(245,129,18,0);transform:scale(.88);opacity:0;transition:transform .28s ease,opacity .28s ease,border-color .28s ease;pointer-events:none}
+.site-footer .social-btn:hover,.site-footer .social-btn:focus-visible{background:linear-gradient(135deg,#F58112,#d96509)!important;border-color:#F58112!important;color:#fff!important;transform:translateY(-4px);box-shadow:0 16px 28px -14px rgba(245,129,18,.68),0 0 0 1px rgba(245,129,18,.12),inset 0 1px 0 rgba(255,255,255,.22)}
+.site-footer .social-btn:hover:before,.site-footer .social-btn:focus-visible:before{opacity:1;transform:scale(1);border-color:rgba(245,129,18,.42)}
+.site-footer .social-icon-wrap{width:22px;height:22px;z-index:1}
+.site-footer .social-icon-outline,.site-footer .social-icon-solid{transition:opacity .24s ease,transform .30s cubic-bezier(.2,.8,.2,1),filter .24s ease}
+.site-footer .social-icon-outline svg{width:19px;height:19px}
+.site-footer .social-icon-solid svg{width:21px;height:21px;filter:brightness(0) invert(1);}
+.site-footer .social-btn:hover .social-icon-solid,.site-footer .social-btn:focus-visible .social-icon-solid{transform:scale(1.08) rotate(0);filter:brightness(0) invert(1) drop-shadow(0 2px 4px rgba(0,0,0,.18))}
+.site-footer .social-btn:hover .social-icon-outline,.site-footer .social-btn:focus-visible .social-icon-outline{transform:scale(.52) rotate(18deg)}
+.site-footer .footer-bottom{border-top:0;color:rgba(255,255,255,.52)}
+@media(max-width:520px){.site-footer .social-row{gap:10px}.site-footer .social-btn{width:42px;height:42px;border-radius:13px}}
+@media(prefers-reduced-motion:reduce){.site-footer .social-btn,.site-footer .social-icon-outline,.site-footer .social-icon-solid,.site-footer .social-btn:before{transition:none}}

@@ -1,0 +1,30 @@
+EL MASHOUR — V29 MODULAR RELEASE QA
+===================================
+Source baseline: El_Mashour_PRODUCTION_FINAL_V28_SERVER_READY.zip
+CSS files extracted: 15
+JS files extracted: 8
+CSS references: 15
+JS references: 8
+Missing local references: 0
+Node syntax checks: PASS
+JSON-LD remains inline: YES
+Partner logo files retained in package: 6
+Partner SHA-256:
+  01_La_Pomme.png: ffa417c70d1afb9ef59b2e2395b7d68a1857e7ac1ffe2875f70466c13d9c46c5
+  02_Bush_Bush.jpeg: 5730599a904d813ea91512b292b7f9d06bc7c14db9e7c5b31ed2a1d95fec8c71
+  03_Monginis.png: 968b61c4524163c077c8221149c5a30a569f64b9a5c5f5d8e8d18b2d49ffe632
+  04_Hadhoud.png: eceab0afd21c1ead47bab97e66ebbc6203e0f51c1082b3546deae813924b19f6
+  05_Howl_El_Sham.png: e6d1c3b4b7e4bb9d32d3d14370db6e7cf95061d72f1931ed89c5f044e04df911
+  06_Success_Partner.jpg: 2c768994a1e3a45b024a4bb8815af6df2136d4e3905a18e58d359265235642c8
+
+Syntax details:
+  01-script-01.js: PASS 
+  02-script-02.js: PASS 
+  03-script-03.js: PASS 
+  04-script-04.js: PASS 
+  05-script-05.js: PASS 
+  06-script-06.js: PASS 
+  07-script-07.js: PASS 
+  08-el-mashour-v15-contact-services-script.js: PASS 
+
+Important: This is a controlled CSS/JS extraction, not a full source-code reconstruction.

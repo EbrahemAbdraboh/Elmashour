@@ -1,0 +1,16 @@
+
+/* Language-direction fixes: keep Arabic layout RTL while isolating phone numbers as LTR. */
+html[dir="rtl"] .site-topbar-phone,
+html[dir="rtl"] .site-topbar-phone > span:last-child,
+html[dir="rtl"] .footer-contact-row,
+html[dir="rtl"] .footer-contact-row > span,
+html[dir="rtl"] a[href^="tel:"],
+html[dir="rtl"] a[href*="wa.me"] {
+  direction: ltr !important;
+  unicode-bidi: isolate !important;
+}
+html[dir="rtl"] .site-topbar-phone { text-align: left !important; }
+html[dir="rtl"] .footer-bottom { direction: rtl !important; text-align: center !important; }
+html[dir="ltr"] .site-topbar-phone,
+html[dir="ltr"] .footer-contact-row,
+html[dir="ltr"] .footer-bottom { direction: ltr; }
