@@ -1,0 +1,11 @@
+{
+  "createdAt": "2026-10-10T03:43:00Z",
+  "status": "NOT_RUN",
+  "reason": "A browser engine is not available in this environment and npm dependencies could not be installed from the registry. JSX source was syntax-transpiled with TypeScript diagnostics; this is not a substitute for visual browser QA.",
+  "verifiedInstead": [
+    "21 static/source QA checks passed",
+    "17 local HTTP smoke tests passed",
+    "JSX files transpile without syntax diagnostics",
+    "ZIP integrity check is required before delivery"
+  ]
+}

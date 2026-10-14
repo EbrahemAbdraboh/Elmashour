@@ -1,0 +1,114 @@
+{
+  "createdAt": "2026-10-10T03:43:00.807Z",
+  "checks": [
+    {
+      "name": "production React bundle exists",
+      "result": "PASS",
+      "detail": "272354 characters"
+    },
+    {
+      "name": "production bundle JavaScript syntax",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "enhancement JavaScript syntax",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "embedded base64 images externalized",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "SEO JSON-LD retained",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "all required routes discoverable",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "React dependencies declared",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "all referenced extracted images exist",
+      "result": "PASS",
+      "detail": "30 references; 0 missing"
+    },
+    {
+      "name": "Vite config and source entry exist",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "React host isolates the legacy application mount",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "legacy scripts load sequentially with error handling",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "route registry includes six public routes",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "source HTML loads a single React entry point",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "offline build output is present",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "modular React header, footer, route page, preview and translations exist",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "modular preview is gated behind query parameter",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "route translations and metadata cover six routes in both languages",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "JSX source files transpile without syntax diagnostics",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "header contains responsive navigation and language control",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "footer preserves phone, email, and map destinations",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "preview stylesheet includes mobile and reduced-motion rules",
+      "result": "PASS",
+      "detail": ""
+    }
+  ],
+  "summary": {
+    "passed": 21,
+    "failed": 0
+  }
+}

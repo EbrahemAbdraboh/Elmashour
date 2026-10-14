@@ -1,0 +1,21 @@
+{
+  "createdAt": "2026-10-10",
+  "status": "NOT_RUN",
+  "checks": [
+    {
+      "name": "Headless browser screenshot / visual inspection",
+      "result": "NOT_RUN",
+      "detail": "Chromium was present but the headless screenshot process timed out and was terminated; no visual pass is claimed."
+    },
+    {
+      "name": "External destination reachability",
+      "result": "BLOCKED",
+      "detail": "DNS resolution was unavailable in the environment for Facebook, Instagram, Google Maps, React docs and Vite docs. URLs were syntax-checked only; live reachability is unverified."
+    },
+    {
+      "name": "Dependency installation and standard Vite production build",
+      "result": "BLOCKED",
+      "detail": "npm install --package-lock-only timed out while resolving registry access. No package lock was generated and npm run build:vite was not run."
+    }
+  ]
+}

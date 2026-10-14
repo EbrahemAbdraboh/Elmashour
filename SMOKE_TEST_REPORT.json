@@ -1,0 +1,94 @@
+{
+  "createdAt": "2026-10-11T10:56:38.442Z",
+  "checks": [
+    {
+      "name": "preview server starts",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "homepage HTML served",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "production stylesheet linked",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "offline bootstrap loads isolated legacy mount",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "SPA fallback /about",
+      "result": "PASS",
+      "detail": "HTTP 200"
+    },
+    {
+      "name": "SPA fallback /portfolio",
+      "result": "PASS",
+      "detail": "HTTP 200"
+    },
+    {
+      "name": "SPA fallback /spare-parts",
+      "result": "PASS",
+      "detail": "HTTP 200"
+    },
+    {
+      "name": "SPA fallback /services",
+      "result": "PASS",
+      "detail": "HTTP 200"
+    },
+    {
+      "name": "SPA fallback /contact",
+      "result": "PASS",
+      "detail": "HTTP 200"
+    },
+    {
+      "name": "asset /main.js",
+      "result": "PASS",
+      "detail": "HTTP 200; text/javascript; charset=utf-8"
+    },
+    {
+      "name": "asset /legacy-app.js",
+      "result": "PASS",
+      "detail": "HTTP 200; text/javascript; charset=utf-8"
+    },
+    {
+      "name": "asset /legacy-enhancements.js",
+      "result": "PASS",
+      "detail": "HTTP 200; text/javascript; charset=utf-8"
+    },
+    {
+      "name": "asset /assets/legacy.css",
+      "result": "PASS",
+      "detail": "HTTP 200; text/css; charset=utf-8"
+    },
+    {
+      "name": "asset /assets/embedded/embedded-01.png",
+      "result": "PASS",
+      "detail": "HTTP 200; image/png"
+    },
+    {
+      "name": "asset /assets/embedded/embedded-30.jpg",
+      "result": "PASS",
+      "detail": "HTTP 200; image/jpeg"
+    },
+    {
+      "name": "asset /assets/partners/01_La_Pomme.png",
+      "result": "PASS",
+      "detail": "HTTP 200; image/png"
+    },
+    {
+      "name": "asset /robots.txt",
+      "result": "PASS",
+      "detail": "HTTP 200; text/plain; charset=utf-8"
+    }
+  ],
+  "summary": {
+    "passed": 17,
+    "failed": 0
+  }
+}

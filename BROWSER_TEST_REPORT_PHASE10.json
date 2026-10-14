@@ -1,0 +1,8 @@
+{
+  "phase": 10,
+  "status": "BLOCKED",
+  "test": "Chromium headless screenshot smoke test",
+  "result": "NOT PASSED",
+  "detail": "Chromium terminated before producing a screenshot in this environment (GPU process unusable; exit code -6). This is not evidence of an application defect, but visual rendering remains unverified.",
+  "screenshotCreated": false
+}

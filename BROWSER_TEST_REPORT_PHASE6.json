@@ -1,0 +1,22 @@
+{
+  "createdAt": "2026-10-10T05:13:05.645268+00:00",
+  "status": "PARTIAL",
+  "checks": [
+    {
+      "name": "Chromium binary available",
+      "result": "PASS",
+      "detail": "/usr/bin/chromium exists"
+    },
+    {
+      "name": "Modular React preview interactive browser test",
+      "result": "NOT_RUN",
+      "detail": "React, React DOM, Vite and browser automation packages are not installed in this environment; npm registry access previously failed, so the JSX preview cannot be served through Vite here."
+    },
+    {
+      "name": "External destination reachability",
+      "result": "NOT_RUN",
+      "detail": "Requires outbound network access; URL syntax is covered by static link audit."
+    }
+  ],
+  "note": "Do not treat source/static tests as a substitute for browser interaction testing."
+}

@@ -1,0 +1,31 @@
+{
+  "createdAt": "2026-10-11T10:56:45.006Z",
+  "scope": "Static source/link audit. External destination availability is not inferred from URL syntax.",
+  "checks": [
+    {
+      "name": "all internal navigation paths map to declared routes",
+      "result": "PASS",
+      "detail": "6 declared routes; 22 literal href/src references inspected"
+    },
+    {
+      "name": "all local asset references resolve",
+      "result": "PASS",
+      "detail": "No missing local asset references found"
+    },
+    {
+      "name": "external URLs are syntactically valid",
+      "result": "PASS",
+      "detail": "External URLs parse correctly"
+    },
+    {
+      "name": "new-tab links include noopener/noreferrer protection",
+      "result": "PASS",
+      "detail": "No unsafe target=_blank patterns detected"
+    }
+  ],
+  "summary": {
+    "passed": 4,
+    "failed": 0,
+    "linksInspected": 22
+  }
+}

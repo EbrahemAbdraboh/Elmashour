@@ -1,0 +1,10 @@
+{
+  "phase": 9,
+  "status": "NOT_VERIFIED",
+  "reason": "A headless Chromium screenshot attempt in the current execution environment previously timed out. No visual pass is claimed.",
+  "required_before_release": [
+    "Run standard Vite compilation with installed dependencies in a network-enabled or pre-provisioned environment.",
+    "Open the migration preview in a real browser and verify desktop, tablet, mobile, Arabic/English, menu, route navigation, and image loading.",
+    "Verify contact actions and all external destinations before production deployment."
+  ]
+}
