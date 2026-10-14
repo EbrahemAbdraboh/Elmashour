@@ -1,0 +1,54 @@
+{
+  "createdAt": "2026-10-09T21:38:20.357Z",
+  "checks": [
+    {
+      "name": "production React bundle exists",
+      "result": "PASS",
+      "detail": "272343 characters"
+    },
+    {
+      "name": "production bundle JavaScript syntax",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "enhancement JavaScript syntax",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "embedded base64 images externalized",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "SEO JSON-LD retained",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "all required routes discoverable",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "React dependencies declared",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "all referenced extracted images exist",
+      "result": "PASS",
+      "detail": "30 references; 0 missing"
+    },
+    {
+      "name": "Vite config and source entry exist",
+      "result": "PASS",
+      "detail": ""
+    }
+  ],
+  "summary": {
+    "passed": 9,
+    "failed": 0
+  }
+}

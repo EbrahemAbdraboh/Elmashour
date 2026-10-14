@@ -1,0 +1,79 @@
+{
+  "createdAt": "2026-10-10T03:33:02.162Z",
+  "checks": [
+    {
+      "name": "production React bundle exists",
+      "result": "PASS",
+      "detail": "272354 characters"
+    },
+    {
+      "name": "production bundle JavaScript syntax",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "enhancement JavaScript syntax",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "embedded base64 images externalized",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "SEO JSON-LD retained",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "all required routes discoverable",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "React dependencies declared",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "all referenced extracted images exist",
+      "result": "PASS",
+      "detail": "30 references; 0 missing"
+    },
+    {
+      "name": "Vite config and source entry exist",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "React host isolates the legacy application mount",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "legacy scripts load sequentially with error handling",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "route registry includes six public routes",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "source HTML loads a single React entry point",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "offline build output is present",
+      "result": "PASS",
+      "detail": ""
+    }
+  ],
+  "summary": {
+    "passed": 14,
+    "failed": 0
+  }
+}

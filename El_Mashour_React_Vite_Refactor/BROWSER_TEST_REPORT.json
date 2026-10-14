@@ -1,0 +1,28 @@
+{
+  "createdAt": "2026-10-10T03:33:00+03:00",
+  "status": "BLOCKED_BY_ENVIRONMENT",
+  "checks": [
+    {
+      "name": "Headless Chromium startup smoke test (about:blank)",
+      "result": "BLOCKED",
+      "detail": "Chromium did not produce DOM output and timed out even on about:blank; this is an environment/browser-launch issue, not a confirmed application failure."
+    },
+    {
+      "name": "Visual regression screenshot",
+      "result": "NOT_RUN",
+      "detail": "No reliable browser session was available; no visual pass is claimed."
+    },
+    {
+      "name": "Standard Vite build",
+      "result": "BLOCKED",
+      "detail": "npm install failed because registry.npmjs.org DNS lookup returned EAI_AGAIN; offline build and HTTP smoke tests were used instead."
+    }
+  ],
+  "summary": {
+    "passed": 0,
+    "failed": 0,
+    "blocked": 2,
+    "notRun": 1
+  },
+  "note": "See QA_REPORT_PHASE3.json and SMOKE_TEST_REPORT.json for completed automated checks."
+}

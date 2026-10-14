@@ -1,0 +1,25 @@
+{
+  "name": "el-mashour-website",
+  "private": true,
+  "version": "10.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "node scripts/build.mjs",
+    "build:vite": "vite build",
+    "preview": "vite preview",
+    "qa": "node scripts/qa.mjs",
+    "serve:build": "node scripts/serve-build.mjs",
+    "smoke-test": "node scripts/smoke-test.mjs",
+    "test:all": "npm run qa && npm run audit:links && npm run build && npm run smoke-test",
+    "audit:links": "node scripts/link-audit.mjs"
+  },
+  "dependencies": {
+    "react": "19.2.5",
+    "react-dom": "19.2.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "5.0.4",
+    "vite": "7.1.7"
+  }
+}
